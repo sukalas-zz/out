@@ -2,9 +2,10 @@
 
 a{
 	font-size:18px;
+	color:rgba(0,0,0,0.9);
 }
 body{
 	color:black;
-	background-color:rgba(100, 100, 100, .5);
+	background-color:rgba(0, 0, 0, 1);
 	font-family: 'Quattrocento Sans', sans-serif;
 }
