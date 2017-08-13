@@ -9,7 +9,7 @@ class Border {
 	}
 	draw(){
 
-		if(Math.random() < .025){
+		if(Math.random() < .25){
 			this.posY = Math.random() * this.height;
 			this.posX = Math.random() * this.width;
 		}
