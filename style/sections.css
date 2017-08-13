@@ -1,15 +1,25 @@
 #bio,#xp,#contact{
 	padding:50px;
-	border-left:1px solid rgba(255,255,255,1);
-	border-top:1px solid rgba(255,255,255,1);
+	/*border-left:1px solid rgba(255,255,255,1);*/
+	/*border-top:1px solid rgba(255,255,255,1);*/
 }
 .col-md-4{
 	padding:50px;
 	background-color: rgba(255,255,255,0.2);
-	border-left:1px solid rgba(255,255,255,1);
-	border-top:1px solid rgba(255,255,255,1);
+	/*border-left:1px solid rgba(255,255,255,1);*/
+	/*border-top:1px solid rgba(255,255,255,1);*/
 }
 .row{
 	min-height: 170px;
 	min-width: 200px;
+}
+#canvas{
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+#canvas2{
+	position:absolute;
+	top:0px;
+	left:0px;
 }
