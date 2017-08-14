@@ -34,8 +34,10 @@ class Particle {
 			}else{
 				this.posY -= .15;
 			}
+			this.interaction = false;
 		}
 		else{
+
 			var radians = .16;
 
 			this.rad += radians;
