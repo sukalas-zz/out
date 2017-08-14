@@ -8,17 +8,19 @@
 	background-color: rgba(255,255,255,0.2);
 	/*border-left:1px solid rgba(255,255,255,1);*/
 	/*border-top:1px solid rgba(255,255,255,1);*/
+	transition: .25s background-color;
+}
+.col-md-4:hover{
+	cursor:pointer;
+	background-color: rgba(255,255,255,0.4);
+	/*border-left:1px solid rgba(255,255,255,1);*/
+	/*border-top:1px solid rgba(255,255,255,1);*/
 }
 .row{
 	min-height: 170px;
 	min-width: 200px;
 }
-#canvas{
-	position:absolute;
-	top:0px;
-	left:0px;
-}
-#canvas2{
+canvas{
 	position:absolute;
 	top:0px;
 	left:0px;
