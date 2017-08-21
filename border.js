@@ -8,7 +8,7 @@ class Particle {
 		this.height = height;
 		this.width = width;
 		this.rad = 0;
-		this.pulseSpeed = 0.017;
+		this.pulseSpeed = 0.027;
 		this.dir = 1;
 		this.color = {r:255,g:255,b:255,a:.35};
 		this.targetX = 0;
@@ -38,7 +38,7 @@ class Particle {
 		}
 		else{
 
-			var radians = .16;
+			var radians = 0.01;
 
 			this.rad += radians;
 			this.posX += Math.cos(this.rad+this.radius)*this.dir;
@@ -51,7 +51,6 @@ class Particle {
 			}
 
 			if(Math.random()<0.005){
-				this.dir *= -1;
 				this.color.r = 0;
 				this.color.b = 255;
 				radians -= 5;
