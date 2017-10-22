@@ -1,3 +1,3 @@
 # My personal page
 
-check it out here: https://sukalas.github.io/out/
+Check it out here: https://sukalas.github.io/out/
